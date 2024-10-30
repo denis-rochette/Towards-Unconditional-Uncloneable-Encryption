@@ -31,7 +31,7 @@ This GitHub page is associated to the following manuscript
 
 Alice encrypts a uniformly random message $m \in \\{0,1\\}$ using key $k$, into a quantum state $\rho_{m,k}$. She transmits it to a Pirate modeled by a CPTP map $\Phi: \mathcal{B} ( \mathcal{H}\_A ) \to \mathcal{B} ( \mathcal{H}\_B \otimes \mathcal{H}\_C )$. Bob and Charlie are then given the registers for $\mathcal{H}\_{B}$ and $\mathcal{H}\_C$, respectively, as well as a copy of $k$. They  output $m_{B}$, $m_{C} \in \\{0, 1\\}$, respectively, and *win* if and only if $m = m_B = m_C$. *Uncloneable-Indistinguishability* holds if the winning probability is bounded by $1/2 + \text{negl}(\lambda)$ for $\lambda$ some security parameter.
 
-## No-cloning game for a 1-bit message
+## Conjecture
 
 <p align="center">
   <img width="600" alt="no-cloning game for a 1-bit message" src="https://github.com/denis-rochette/Towards-Unconditional-Uncloneable-Encryption/blob/main/images/conjecture.png">
