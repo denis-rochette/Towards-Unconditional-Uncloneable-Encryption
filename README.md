@@ -9,7 +9,7 @@ This GitHub page is associated to the following manuscript
 [&#128100; Anne Broadbent](https://mysite.science.uottawa.ca/abroadbe/), 
 [&#128100; Eric Culf](https://uwaterloo.ca/institute-for-quantum-computing/contacts/eric-culf), 
 [&#128100; Ion Nechita](https://ion.nechita.net/about/),
-[&#128100; Clément Pellegrini](https://www.math.univ-toulouse.fr/~pellegri/), and 
+[&#128100; Clément Pellegrini](https://perso.math.univ-toulouse.fr/pellegrini/), and 
 [&#128100; Denis Rochette](https://www.denisrochette.net).
 
 ## Content
