@@ -23,7 +23,7 @@ This GitHub page is associated to the following manuscript
 |-- `README.md`: This file.
 ```
 
-## No-cloning game for a 1-bit message
+## No-Cloning Game for a 1-bit Message
 
 <p align="center">
   <img width="600" alt="no-cloning game for a 1-bit message" src="https://github.com/denis-rochette/Towards-Unconditional-Uncloneable-Encryption/blob/main/images/no-cloning-game.png">
