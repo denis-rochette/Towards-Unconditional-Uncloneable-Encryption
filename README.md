@@ -2,8 +2,8 @@
 
 ## Associated Manuscript
 
-This GitHub page is associated to the following manuscript 
-- <b>Manuscript:</b> [&#128195; Towards-Unconditional-Uncloneable-Encryption] (todo)
+This GitHub page is associated to the following manuscript: 
+- <b>Manuscript:</b> [&#128195; Towards Unconditional Uncloneable Encryption] (todo)
 - <b>Authors:</b> 
 [&#128100; Pierre Botteron](https://pierre-botteron.github.io/), 
 [&#128100; Anne Broadbent](https://mysite.science.uottawa.ca/abroadbe/), 
