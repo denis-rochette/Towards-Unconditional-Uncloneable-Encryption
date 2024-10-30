@@ -10,16 +10,22 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    513142,      11167]
-NotebookOptionsPosition[    511848,      11140]
-NotebookOutlinePosition[    512242,      11156]
-CellTagsIndexPosition[    512199,      11153]
+NotebookDataLength[    512760,      11157]
+NotebookOptionsPosition[    511593,      11133]
+NotebookOutlinePosition[    511991,      11149]
+CellTagsIndexPosition[    511948,      11146]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
+Cell["\<\
+Seesaw method for the Clifford MoE game
+Author: Ion Nechita\
+\>", "Author",
+ CellChangeTimes->{{3.939283453516522*^9, 
+  3.9392834745949087`*^9}},ExpressionUUID->"5efa769f-920a-4540-975e-\
+dc9676e7fec5"],
 
-Cell[CellGroupData[{
 Cell[BoxData[{
  RowBox[{"ClearAll", "[", "\"\<Global`*\>\"", "]"}], "\[IndentingNewLine]", 
  RowBox[{"SetDirectory", "[", 
@@ -27,13 +33,6 @@ Cell[BoxData[{
  CellChangeTimes->{{3.939194386171464*^9, 3.939194386439582*^9}},
  CellLabel->
   "In[229]:=",ExpressionUUID->"9faac6d2-f8f8-4eb4-8764-4deab8114dd4"],
-
-Cell[BoxData["\<\"/Users/office-lpt/My Drive/NUMERICS/cloning-games\"\>"], \
-"Output",
- CellChangeTimes->{3.939194407092471*^9},
- CellLabel->
-  "Out[230]=",ExpressionUUID->"28707e3d-6fef-41c6-a41a-b8f3bb45804b"]
-}, Open  ]],
 
 Cell[BoxData[
  RowBox[{
@@ -11129,18 +11128,12 @@ K=3"], None}, {
  CellChangeTimes->{3.939195219452757*^9, 3.939195282333696*^9, 
   3.939195370725601*^9},
  CellLabel->
-  "Out[265]=",ExpressionUUID->"20914057-b420-42d6-9b1a-5c6a16dcff73"],
-
-Cell[BoxData["\<\"K3-seesaw.png\"\>"], "Output",
- CellChangeTimes->{3.939195219452757*^9, 3.939195282333696*^9, 
-  3.939195372695859*^9},
- CellLabel->
-  "Out[266]=",ExpressionUUID->"628825f1-2405-4362-82fa-67d04d482892"]
+  "Out[265]=",ExpressionUUID->"20914057-b420-42d6-9b1a-5c6a16dcff73"]
 }, Open  ]]
 },
-WindowSize->{898, 1161},
-WindowMargins->{{Automatic, 747}, {Automatic, 0}},
-FrontEndVersion->"13.1 for Mac OS X ARM (64-bit) (June 16, 2022)",
+WindowSize->{898, 1014},
+WindowMargins->{{Automatic, -1431}, {Automatic, 151}},
+FrontEndVersion->"13.3 for Mac OS X x86 (64-bit) (July 24, 2023)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"2662942c-109e-4206-af46-d28b41beb8b6"
 ]
@@ -11155,19 +11148,16 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
+Cell[558, 20, 213, 6, 57, "Author",ExpressionUUID->"5efa769f-920a-4540-975e-dc9676e7fec5"],
+Cell[774, 28, 332, 6, 52, "Input",ExpressionUUID->"9faac6d2-f8f8-4eb4-8764-4deab8114dd4"],
+Cell[1109, 36, 13899, 343, 1312, "Input",ExpressionUUID->"d8f8ebd1-4d72-45d3-ab21-08cd3a565b53"],
+Cell[15011, 381, 1379, 38, 157, "Input",ExpressionUUID->"52de7084-1694-4be1-b1cf-763ff6fa85d4"],
+Cell[16393, 421, 27138, 632, 2194, "Input",ExpressionUUID->"8f13b5fd-4ac7-43c0-920d-c45b8c480125"],
+Cell[43534, 1055, 4204, 126, 388, "Input",ExpressionUUID->"a4e897de-6e50-4c89-ae84-be8147c6cce5"],
 Cell[CellGroupData[{
-Cell[580, 22, 332, 6, 64, "Input",ExpressionUUID->"9faac6d2-f8f8-4eb4-8764-4deab8114dd4"],
-Cell[915, 30, 211, 4, 42, "Output",ExpressionUUID->"28707e3d-6fef-41c6-a41a-b8f3bb45804b"]
-}, Open  ]],
-Cell[1141, 37, 13899, 343, 1832, "Input",ExpressionUUID->"d8f8ebd1-4d72-45d3-ab21-08cd3a565b53"],
-Cell[15043, 382, 1379, 38, 220, "Input",ExpressionUUID->"52de7084-1694-4be1-b1cf-763ff6fa85d4"],
-Cell[16425, 422, 27138, 632, 2950, "Input",ExpressionUUID->"8f13b5fd-4ac7-43c0-920d-c45b8c480125"],
-Cell[43566, 1056, 4204, 126, 584, "Input",ExpressionUUID->"a4e897de-6e50-4c89-ae84-be8147c6cce5"],
-Cell[CellGroupData[{
-Cell[47795, 1186, 4543, 119, 490, "Input",ExpressionUUID->"247f3458-216f-409e-a002-20ddb35c444d"],
-Cell[52341, 1307, 1908, 41, 42, "Output",ExpressionUUID->"e39bf14f-fdf5-4103-9b83-11758d916b7b"],
-Cell[54252, 1350, 457357, 9781, 303, "Output",ExpressionUUID->"20914057-b420-42d6-9b1a-5c6a16dcff73"],
-Cell[511612, 11133, 220, 4, 87, "Output",ExpressionUUID->"628825f1-2405-4362-82fa-67d04d482892"]
+Cell[47763, 1185, 4543, 119, 332, "Input",ExpressionUUID->"247f3458-216f-409e-a002-20ddb35c444d"],
+Cell[52309, 1306, 1908, 41, 34, "Output",ExpressionUUID->"e39bf14f-fdf5-4103-9b83-11758d916b7b"],
+Cell[54220, 1349, 457357, 9781, 244, "Output",ExpressionUUID->"20914057-b420-42d6-9b1a-5c6a16dcff73"]
 }, Open  ]]
 }
 ]
