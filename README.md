@@ -34,8 +34,10 @@ Alice encrypts a uniformly random message $m \in \\{0,1\\}$ using key $k$, into 
 ## No-cloning game for a 1-bit message
 
 <p align="center">
-  <img width="600" alt="no-cloning game for a 1-bit message" src="https://github.com/denis-rochette/Towards-Unconditional-Uncloneable-Encryption/blob/main/images/no-cloning-game.png">
+  <img width="600" alt="no-cloning game for a 1-bit message" src="https://github.com/denis-rochette/Towards-Unconditional-Uncloneable-Encryption/blob/main/images/conjecture.png">
 </p>
+
+Upper bounds on the winning probability in the cloning game involving three adversaries $(P, B, C)$ for our candidate scheme for Uncloneable Encryption with $K$ keys. The solid line (red) is the conjectured upper bound, the dashed line (cyan) corresponds to the upper bound derived from [NPA level 1](https://github.com/denis-rochette/Towards-Unconditional-Uncloneable-Encryption/blob/main/conjecture/NPA1.m), the circles (teal) are the numerical upper bounds obtained from [NPA level 2](https://github.com/denis-rochette/Towards-Unconditional-Uncloneable-Encryption/blob/main/conjecture/NPA2.m), and the square (black) is the numerical result obtained using the [seesaw optimization method](https://github.com/denis-rochette/Towards-Unconditional-Uncloneable-Encryption/blob/main/conjecture/seesaw.nb) on $K=18$.
 
 ## Reference
 
