@@ -45,11 +45,9 @@ Upper bounds on the winning probability in the no-cloning game involving three a
 @misc{https://doi.org/10.48550/arxiv.2410.23064,
   doi = {10.48550/ARXIV.2410.23064},
   url = {https://arxiv.org/abs/2410.23064},
-  author = {Botteron,  Pierre and Broadbent,  Anne and Culf,  Eric and Nechita,  Ion and Pellegrini,  Clément and Rochette,  Denis},
-  keywords = {Quantum Physics (quant-ph),  FOS: Physical sciences,  FOS: Physical sciences},
+  author = {Botteron, Pierre and Broadbent, Anne and Culf, Eric and Nechita, Ion and Pellegrini, Clément and Rochette, Denis},
   title = {Towards Unconditional Uncloneable Encryption},
   publisher = {arXiv},
   year = {2024},
-  copyright = {arXiv.org perpetual,  non-exclusive license}
 }
 ```
